@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>PRIMITIVO</title>
+    <link rel="icon" href="img/logos/LOGO.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            
+            <div style="display: flex; align-items: center; margin-left: -40px;">
+                <img src="img/logos/LOGO.jpg" alt="LOGO PRIMITIVO" style="height: 120px; vertical-align: middle; 
+                    mask-image: radial-gradient(circle, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, 0) 100%);
+                    -webkit-mask-image: radial-gradient(circle, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);">
+                <h1 style="margin-left: 5px;">PRIMITIVO</h1>
+            </div>
+            
+            <nav id="nav" >
+               
+                <a href="nuevo.html" onclick="seleccionar()">NUEVO</a>
+                <a href="tops.html" onclick="seleccionar()">TOPS</a>
+                <a href="joggers.html" onclick="seleccionar()">JOGGERS</a>
+                <a href="outfit.html" onclick="seleccionar()">OUTFITS COMPLETOS</a>
+                <a href="galeria.html" onclick="seleccionar()">GALERIA</a>
+                <a href="atletas.html" onclick="seleccionar()">ATLETAS</a>
+                <a href="sobrenosotros.html" onclick="seleccionar()">SOBRE NOSOTROS</a>
+            </nav>
+            <div class="redes"  style="margin-right: -50px;">
+                <a href="https://www.facebook.com/share/1uMbLhg6UyxFiRAK/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/primitivo.pr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com/@primitivo_pr?si=q55jFeE3LiOKsOQk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@primitivo.pr?_t=8r32XOQr8mE&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://wa.me/59164208558" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+           
+            <div class="redes">
+                <a href="carrito.html" style="font-size: 50px; position: relative; right: -180px;">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+                
+
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <video autoplay muted loop class="video-background">
+            <source src="videos/inicio.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+  
+        <div class="contenido-texto">
+            <h2 style="font-size: 55px;">!PRIMITIVO <span class="txtRojo">MAS</span></h2>
+            <p style="font-size: 35px;">que una marca de ropa!</p>
+            
+        </div>
+       
+    </section>
+    
+    <!-- SECCION NOSOTROS -->
+    <div>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide1" src="img/atletas/lizeth1.jpeg" style="margin-left: 0px;">
+                <img id="slide2" src="img/atletas/lizeth2.jpeg" style="margin-left: 0px;">
+                <img id="slide3" src="img/atletas/naye3.jpeg" style="margin-left: 0px;">
+                <img id="slide4" src="img/atletas/naye5.jpeg" style="margin-left: 0px;">
+            <div class="slider-nav">
+                <a href="slide1"></a>
+                <a href="slide2"></a>
+                <a href="slide3"></a>
+                <a href="slide4"></a>
+            </div>
+        </div>
+    </div>
+   <!-- NUEVOS DROPS -->
+   <div class="product-gallery">
+    <div class="product-item">
+        <img src="img/atletas/naye4.jpeg" alt="Gunmetal Gray - Distressed Tees">
+        <h3 style="color: white;" >GUNMETAL GRAY– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/naye1.jpeg" alt="Midnight Black - Distressed Tees">
+        <h3 style="color: white;">MIDNIGHT BLACK– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/saulroner1.jpeg" alt="Earth Brown - Distressed Tees">
+        <h3 style="color: white;">EARTH BROWN– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/alejandro6.jpeg" alt="Butcher Flannel">
+        <h3 style="color: white;">– BUTCHER FLANNEL</h3>
+        <p>Bs355,00</p>
+    </div>
+</div>
+<div class="product-gallery">
+    <div class="product-item">
+        <img src="img/atletas/alejandronaranja.jpeg" alt="Gunmetal Gray - Distressed Tees">
+        <h3 style="color: white;" >GUNMETAL GRAY– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/roner2.jpeg" alt="Midnight Black - Distressed Tees">
+        <h3 style="color: white;">MIDNIGHT BLACK– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/saul2.jpeg" alt="Earth Brown - Distressed Tees">
+        <h3 style="color: white;">EARTH BROWN– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/alejandro3.jpeg" alt="Butcher Flannel">
+        <h3 style="color: white;">– BUTCHER FLANNEL</h3>
+        <p>Bs355,00</p>
+    </div>
+</div>
+<div class="product-gallery">
+    <div class="product-item">
+        <img src="img/atletas/alejandro1.jpeg" alt="Gunmetal Gray - Distressed Tees">
+        <h3 style="color: white;" >GUNMETAL GRAY– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/roner4.jpeg" alt="Midnight Black - Distressed Tees">
+        <h3 style="color: white;">MIDNIGHT BLACK– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/saul1.jpeg" alt="Earth Brown - Distressed Tees">
+        <h3 style="color: white;">EARTH BROWN– DISTRESSED TEES</h3>
+        <p>Bs320,00</p>
+    </div>
+    <div class="product-item">
+        <img src="img/atletas/roner1.jpeg" alt="Butcher Flannel">
+        <h3 style="color: white;">– BUTCHER FLANNEL</h3>
+        <p>Bs355,00</p>
+    </div>
+</div>
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <img src="img/atletas/negropower1.png" alt="">
+                </div>
+                <div class="col">
+                   
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            PRIMITIVO
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA</span>
+                            <h2>EN ROPA DEPORTIVA</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">VISTIENDO ATLETAS DE ALTO RENDIMIENTO- CON HAMBRE DE GLORIA!!!!</p>
+                    <p>Competencia de powerlifting.</p>
+                </div>
+               
+            </div>
+        </div>
+       
+    </section>
+
+   
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    VISITAS A GYM´S
+                </div>
+                <div class="info">
+                    <span class="frase">CON LAS MEJORES COMPETENCIAS</span>
+                    <h2>GYMS</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <!-- Video 1 -->
+        <video controls>
+            <source src="videos/equipo.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+
+        <!-- Video 2 -->
+        <video controls>
+            <source src="videos/Primitivo2.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+   <!-- WhatsApp Button -->
+   <a href="https://wa.me/59164208558" target="_blank" id="whatsapp-btn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
+  
+    <!-- SECCION CONTACTO -->
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>INFORMATIONS</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Size Chart</a></li>
+                <li><a href="#">Return & Exchange Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>CUSTOMER SERVICES</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Accessibility Statement</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>SIGN UP</h3>
+            <p>Join our Email VIP list for exclusive sale access, collection drops and more!</p>
+            <form action="#">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">📧</button>
+            </form>
+         
+        </div>
+    </footer>
+    
+
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="txtRojo">PRIMITIVO</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="https://www.facebook.com/share/1uMbLhg6UyxFiRAK/">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.tiktok.com/@primitivo.pr?_t=8r32XOQr8mE&_r=1">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="https://www.instagram.com/primitivo.pr/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com/@primitivo_pr?si=q55jFeE3LiOKsOQk">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
